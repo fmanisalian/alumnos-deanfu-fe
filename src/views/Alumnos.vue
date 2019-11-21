@@ -89,9 +89,8 @@
           <td>{{item.descripcion}}</td>
           <td>{{item.date}}</td>
           <td>
-            <b-button class="btn-warning btn-sm mx-2" @click="activarEdicion(item._id)">Actualizar</b-button>
+            <b-button class="btn-warning btn-sm mx-2" @click="activarEdicion(item._id)">Editar</b-button>
             <b-button class="btn-danger btn-sm" @click="eliminarAlumno(item._id)">Eliminar</b-button>
-            <!--<b-button class="btn-danger btn-sm mx-2" @click="alerta()">Accion</b-button>-->
           </td>
         </tr>
       </tbody>
